@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #efeded;
+    border-radius: 5px;
+    padding: 5px 10px 5px 5px;
+    margin-top: 5px;
+
+}
+
+.wrapper > div {
+    text-align: left;
+}
+
+.number {
+    font-size: 16px;
+    color: #8d8d8d;
+    padding-right: 5px;
+}
+
+.blue {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(43, 89, 239, 0.97);
+}
+
+.role {
+    font-size: 14px;
+    color: #464242;
+}
+
+.block {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+
+    .blue,
+    .number{
+        font-size: 14px;
+
+    }
+
+    .role{
+        font-size: 12px;
+        color: #464242;
+    }
+}
+@media screen and (max-width: 576px) {
+
+    .blue,
+    .number{
+        font-size: 13px;
+
+    }
+
+    .role{
+        font-size: 12px;
+        color: #464242;
+    }
+}
+
+

@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #181818;
+    padding: 20px;
+}
+
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.header a:first-child{
+    margin-right: 20px;
+}
+
+.header a:hover {
+    color: rgba(93, 135, 227, 0.97);
+    border-bottom: rgba(93, 135, 227, 0.97);
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 45px;
+        padding: 15px;
+    }
+    .header a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .header {
+        height: 38px;
+        padding: 10px;
+    }
+
+    .header a {
+        font-size: 12px;
+    }
+}

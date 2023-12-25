@@ -1,0 +1,30 @@
+.wrapper {
+    margin: 20px auto 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.sort {
+    font-size: 13px;
+    font-weight: 400;
+    color: #9d9d9d;
+}
+
+.sort__item{
+    font-size: 13px;
+    color: #555;
+    cursor: pointer;
+    font-weight: 400;
+}
+.item_bold{
+    font-weight: 600;
+    color: rgba(43, 89, 239, 0.97);
+}
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        margin-top: 5px;
+    }
+}
+

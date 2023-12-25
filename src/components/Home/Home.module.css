@@ -1,0 +1,32 @@
+.title {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4456b0;
+    border-bottom: 1px solid #c2c1c1;
+    border-top: 1px solid #c2c1c1;
+    padding: 10px 0;
+}
+
+.content {
+    display: flex;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        padding: 6px 0;
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .title {
+        width: 80%;
+        padding: 6px 0;
+        font-size: 20px;
+    }
+    .content {
+        flex-direction: column;
+    }
+}
